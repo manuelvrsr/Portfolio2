@@ -1,0 +1,69 @@
+
+.background{
+background-image: url(./photos/colorDrop.jpeg);
+background-size: cover;
+height: 1200px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.insideBackground {
+    background-color: peachpuff;
+    width: 80%;
+    height: 70%;
+    text-align: center;
+    display: flex;
+
+}
+
+
+.aside{
+    background-color: rgb(222, 228, 228);
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    align-items: center;
+}
+.button{
+    justify-content: center;
+
+    text-align: center;
+}
+.row {
+    height: 20px;
+}
+.aboutMe{
+    width: 100%;
+}
+.card{
+    height: 60px;
+}
+    
+@media screen and (max-width: 767px) {
+    .background{
+        height: 2450px;
+    }
+}
+.projects{
+    text-align: center;
+}
+.portfolio {
+    text-align: center;
+    align-items: center;
+}
+.photo{
+    background-image: url(./photos/IMG_4057.JPG);
+    width: 100%;
+    height: 150px;
+    background-size: cover;}
+
+    @media screen and (max-width: 700px) {
+        .portfolio{
+            font-size: 14px;
+            }
+    }
+    @media screen and (max-width: 593px) {
+        .resumeText{
+            font-size: 14px;
+            }
+    }
